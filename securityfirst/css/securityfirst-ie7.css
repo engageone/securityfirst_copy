@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+.cardWrapper {
+	margin-bottom:-10px;
+}
+
+#cardshareForm p {
+	margin-top: 0.1em;
+}
+#cardshareForm p.subhead {
+	margin-bottom:0.2em;
+}
+.card li.ui-button {
+	float: left;
+}
+.cardDialog .checkbox label.ui-checkbox, .cardDialog .radio label.ui-radio {
+	top: 0px;
+}
+.ui-dialog-buttonpane-text {
+	line-height: 22px;
+}
+.ui-widget button {
+	padding: 0px;
+}
+.ui-button .ui-button-text {
+	line-height: 13px;
+	padding: 12px 15px 8px 15px;
+}
+.cardDialog .checkbox label.ui-checkbox, .cardDialog .radio label.ui-radio {
+	font-weight: normal;
+}
+.cardDialog input.text, .cardDialog textarea {
+	margin-top: -1px;
+}
+#jp_container_1 {
+	left:0%;
+}
+
+/* Overlay positioning with the buffering icon */
+.widthWrapper {
+	position:relative;
+}
+#overlays {
+	position:absolute;
+}
+#wsj_date_mc {
+	top:245px;
+}
+#referral_name_mc {
+	top:132px;
+}
+/* End of overlay positioning with the buffering icon */
+
+.failover_message .min_requirements {
+	width:320px;
+	position:absolute;
+	left:8%;
+}
+.script_disabled_parent {
+	z-index:5;
+}
+
+/* fix issue with volume bar moving over to the right */
+#timelineBar {
+	z-index: 2;
+}
+.ui-slider#volume, #volumeBar {
+	left: 0;
+}
+/* END OF fix issue with volume bar moving over to the right */
+body .ui-selectmenu-menu-popup {
+	text-align: left;
+}
+
+#policyDisclaimer {
+	top: -282px;
+}

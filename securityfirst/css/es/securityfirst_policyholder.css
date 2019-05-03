@@ -1,0 +1,18 @@
+.sideButtons li {
+	background-image: url(img/side-btns.png);
+}
+#cardEnd ul {
+	width: 375px;
+}
+.wrapperLoadingImage {
+	background-image: url(img/loading-bg-image.png);
+}
+.sideButtons li {
+	background-image: url(img/side-btns.png);
+}
+.cardStartBtn {
+	background-image: url(img/cardStart-btns.jpg);
+}
+#card12-btns a {
+	background-image: url(img/card12-btns.jpg);
+}

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#card24Step1Form p.label {
+	margin-top:2px;
+}
+.flashWarningMessageIeIV {
+	background: url(img/ie9-warning.jpg) 10px 10px no-repeat;
+}
+#cardshareStep1 textarea {
+	height: 60px;
+	padding-top: 9px;
+}
+.cardDialog textarea {
+	overflow: auto;
+	padding-top: 0;
+	padding-bottom: 9px;
+	line-height: 22px;
+}
+#cardfeedbackStep1 textarea {
+	padding-top: 5px;
+}

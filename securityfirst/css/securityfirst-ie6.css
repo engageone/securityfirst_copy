@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+#timeline .ui-slider-handle {
+	/* IE5.5-6 No Marker image*/
+	background: none;
+	background-color:#0099CC;
+	width:4px;
+	margin-left:-2px !important;
+	height:60px;
+	top:-10px;
+	/* IE5.5-6 END OF No Marker image*/
+}
+
+.screenShadowWrapper {
+	background: none;
+	/*display:none;*/
+}
+
+#header_container {
+	background-image:url(img/logo.jpg);
+}
+
+#footer {
+	top:-55px;
+}
+
+/* IE6 and below disabled */
+#jp_container_1, #buffering_icon, #loading_icon, #promo, .sideButtons, .cardDialog, .script_disabled_parent{
+	display:none !important;
+}
+.failover_message {
+	margin-top:100px;
+}
+.failover_message .min_requirements {
+	width:320px;
+	position:absolute;
+	left:8%;
+}
+/* buffering progress */
+#buffering-progress-unbuffered,#buffering-progress-buffered{
+	font-size:0px;
+}
+
+
+
+
+
